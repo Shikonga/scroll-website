@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+   
+    
+  }
+
+  section {
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+    transition: background-color 0.5s ease;
+    background-color: lightblue;
+  }
+
+  section:nth-child(2n) {
+    background-image: url(images/giuseppe-gallo-cMOfXaOZsPM-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    color:white;
+  }
+
+  section:nth-child(3n) {
+    background-color: lightcoral;
+  }
+
+ /*  section:nth-child(4n) {
+    background-image: url(images/sofia-neumann-Yw15OkkrUII-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-blend-mode: darken;
+    color:white;
+  } */
+
+
+ /*  section:nth-child(4n) {
+    background-image: url(images/palash-kesharwani-D3thos-lqh8-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+section:nth-child(4n) {
+    background-image: url(images/topsphere-media-zlYUCmArB38-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);*/
+    color: white; 
+    min-height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  section h1 {
+    /* position: sticky;
+    top: 0;*/
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    transition: background-color 0.5s ease;
+
+  }
+
+  section p{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+
+  section:nth-child(4) p {
+    text-align: center;
+    
+  }
+
+ /*  section:nth-child(odd) h1 {
+    background-color: lightblue;
+  }
+
+  section:nth-child(even) h1 {
+    background-color: lightgreen;
+  } */
